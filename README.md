@@ -24,7 +24,7 @@ The **WiFi Deauth Tool** is a Python-based utility that provides several methods
   - **Deauth All Networks in Range:** Uses `mdk4` to send deauthentication packets to all networks in range.
 
 - **Enhanced Logging:**  
-  Implements colorful and detailed logging via the Python package `coloredlogs` (with logs also written to `wifi_deauth.log`).
+  Implements colorful and detailed logging via the Python package `coloredlogs` (with logs also written to `WIFI-Deauther.log`).
 
 - **Signal Handling:**  
   Gracefully handles termination signals (e.g., Ctrl+C) to ensure proper cleanup (disabling monitor mode).
@@ -79,7 +79,7 @@ Ensure you are running Python 3. This tool is designed to work with Python 3.
    Since the tool manipulates network interfaces, it must be run with root privileges:
 
    ```bash
-   sudo python3 wifi_deauth.py
+   sudo python3 WIFI-Deauther.py
    ```
 
 2. **Select the Wireless Interface:**
@@ -101,7 +101,7 @@ Ensure you are running Python 3. This tool is designed to work with Python 3.
 
 ## Files in the Repository
 
-- **wifi_deauth.py**  
+- **WIFI-Deauther.py**  
   The main Python script containing the WiFi deauthentication tool.
 
 - **install_requirements.sh**  
