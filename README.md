@@ -1,4 +1,4 @@
-# WiFi Deauther
+# WIFI Deauther
 
 > **Disclaimer:**  
 > **WARNING:** This tool is for educational purposes and authorized security testing only.  
