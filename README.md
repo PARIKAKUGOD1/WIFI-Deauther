@@ -36,7 +36,7 @@ The **WiFi Deauth Tool** is a Python-based utility that provides several methods
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/PARIKAKUGOD1/WiFI-Deauther.git
+git clone https://github.com/PARIKAKUGOD1/WIFI-Deauther.git
 cd WIFI-Deauther
 ```
 
